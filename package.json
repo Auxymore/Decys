@@ -1,0 +1,45 @@
+{
+  "name": "decys",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 4202",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.10",
+    "@tailwindcss/postcss": "^4.1.10",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "lucide-react": "^0.516.0",
+    "marked": "^5.1.1",
+    "nanoid": "5.0.9",
+    "next": "^15.3.3",
+    "openai": "^4.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^24.0.3",
+    "@types/react": "19.1.8",
+    "@typescript-eslint/parser": "^8.34.1",
+    "eslint": "9.29.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "4.1.10",
+    "typescript": "^5.1.3"
+  }
+}
